@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Hanken';
+  src: url('HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Hanken', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.great {
+  background-image: linear-gradient(to bottom, hsl(256, 72%, 54%), hsl(256, 72%, 54%), hsla(241, 72%, 46%, 1));
+  color: hsl(241, 100%, 89%);
+  border-radius: 0px 0px 30px 30px;
+  text-align: center;
+  height: 50vh;
+  justify-content: center;
+  padding: 40px;
+}
+
+.great > p.num {
+  height: 10px;
+  font-weight: 800;
+}
+
+.great > h2 {
+  color: white;
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.result {
+  background-image: linear-gradient(to top, hsl(256, 72%, 54%), hsla(241, 72%, 46%, 1));
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+p.num {
+  color: hsl(0, 0%, 100%);
+  font-size: 3em;
+  padding-top: 40px;
+  display: block;
+  font-weight: bolder;
+}
+
+.summary {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin: 10px;
+}
+
+.red {
+  background-color: hsla(0, 90%, 77%, 1);
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+}
+
+.red > text {
+  color: hsl(0, 100%, 67%);
+  padding-right: 40%;
+  
+}
+
+.yellow {
+  background-color: rgba(255, 232, 189, 0.801);
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.yellow > text {
+  color: hsl(39, 100%, 56%);
+  padding-right: 42%;
+}
+
+.green {
+  background-color: hsla(165, 100%, 57%, 0.31);
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.green > text {
+  color: hsl(166, 100%, 37%);
+  padding-right: 46%;
+}
+
+.blue {
+  background-color: #6666ff5c;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.blue > text {
+  color: hsl(234, 85%, 45%);
+  padding-right: 47%;
+}
+
+.botao {
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  width: 300px;
+  height: 50px;
+}
+
+.botao:hover {
+  background-color: hsl(256, 72%, 54%);
+}
+
+.attribution {
+  margin-top: 10px;
+}
