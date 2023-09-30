@@ -1,5 +1,52 @@
 @media screen and (min-width: 700px) {
-    body {
-        background-color: aqua;
+    section {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        margin-top: 200px;
     }
+
+    .great {
+        width: 300px;
+        height: 420px;
+        border-radius: 30px;
+    }
+
+    .great > h3 {
+        padding-bottom: 30px;
+    }
+
+    .great text {
+        margin-bottom: 30px;
+    }
+
+    .summary {
+        border-radius: 0px 10px 10px 0px;
+        height: 420px;
+        width: 300px;
+        margin: auto;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.029) ;
+    }
+
+    #red, #yellow, #green, #blue {
+        width: 250px;
+    }
+
+    .teste {
+        font-size: 0.9em;
+    }
+
+    .icon {
+        font-size: 0.8em;
+    }
+
+    .numero {
+        display: inline;
+        font-size: 0.9em;
+    }
+
+    .botao {
+        width: 250px;
+    }
+
 }
