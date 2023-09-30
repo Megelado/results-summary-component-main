@@ -12,6 +12,10 @@
   font-size: 18px;
 }
 
+section {
+  position: relative;
+}
+
 .great {
   background-image: linear-gradient(to bottom, hsl(256, 72%, 54%), hsl(256, 72%, 54%), hsla(241, 72%, 46%, 1));
   color: hsl(241, 100%, 89%);
@@ -52,8 +56,15 @@ p.num {
 .summary {
   padding-top: 20px;
   margin-left: 20px;
-  margin: 10px;
-  padding: 20px;
+  margin: auto;
+  text-align: center;
+  left: 20%;
+  top: 100%;
+}
+
+.content {
+  margin: auto;
+  padding-top: 12px;
 }
 
 p.teste {
@@ -61,7 +72,7 @@ p.teste {
   color: hsl(241, 51%, 80%);
 }
 
-.red {
+#red {
   background-color: rgba(249, 144, 144, 0.644);
   border-radius: 5px;
   width: 300px;
@@ -69,13 +80,13 @@ p.teste {
   margin-top: 10px;
 }
 
-.red > text {
+#red > text {
   color: hsl(0, 100%, 67%);
   padding-right: 40%;
   
 }
 
-.yellow {
+#yellow {
   background-color: rgba(255, 232, 189, 0.801);
   border-radius: 10px;
   width: 300px;
@@ -83,12 +94,12 @@ p.teste {
   margin-top: 10px;
 }
 
-.yellow > text {
+#yellow > text {
   color: hsl(39, 100%, 56%);
   padding-right: 42%;
 }
 
-.green {
+#green {
   background-color: hsla(165, 100%, 57%, 0.31);
   border-radius: 10px;
   width: 300px;
@@ -96,12 +107,12 @@ p.teste {
   margin-top: 10px;
 }
 
-.green > text {
+#green > text {
   color: hsl(166, 100%, 37%);
   padding-right: 46%;
 }
 
-.blue {
+#blue {
   background-color: #6666ff2c;
   border-radius: 10px;
   width: 300px;
@@ -109,7 +120,7 @@ p.teste {
   margin-top: 10px;
 }
 
-.blue > text {
+#blue > text {
   color: hsl(234, 85%, 45%);
   padding-right: 47%;
 }
