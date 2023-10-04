@@ -1,53 +1,36 @@
 @media screen and (min-width: 700px) {
-    section {
-        display: grid;
-        grid-template-columns: auto auto;
 
-        width: 400px;
-        height: 700px;
+    html, body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+
+    section {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 10px;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+  
+        transform: translate(-50%, -50%);
     }
 
     .great {
-        width: 300px;
-        height: 420px;
-        border-radius: 30px;
-    }
-
-    .great > h3 {
-        padding-bottom: 30px;
-    }
-
-    .great text {
-        margin-bottom: 30px;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
     }
 
     .summary {
         border-radius: 0px 10px 10px 0px;
-        height: 420px;
-        width: 300px;
-        margin: auto;
-        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.029) ;
-    }
-
-    #red, #yellow, #green, #blue {
-        width: 250px;
-    }
-
-    .teste {
-        font-size: 0.9em;
-    }
-
-    .icon {
-        font-size: 0.8em;
-    }
-
-    .numero {
-        display: inline;
-        font-size: 0.9em;
-    }
-
-    .botao {
-        width: 250px;
+        padding: 10px;
+        margin: 0px;
+        height: 100%;
+        width: 100%;
     }
 
 }
