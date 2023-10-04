@@ -2,6 +2,9 @@
     section {
         display: grid;
         grid-template-columns: auto auto;
+
+        width: 400px;
+        height: 700px;
     }
 
     .great {
